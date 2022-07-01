@@ -12,4 +12,10 @@ const Query = {
     }
 }
 
-module.exports = { Query }
+const Student = {
+    fullName:(root,args,context,info) => {
+       return root.firstName+":"+root.lastName
+    }
+ }
+
+module.exports = { Query, Student }
