@@ -17,7 +17,7 @@ type Student {
    id:ID!
    firstName:String
    lastName:String
-   fullName:String
+   # fullName:String
    college:College
 }
 
@@ -25,4 +25,8 @@ enum ColorType {
    RED
    BLUE
    GREEN
+}
+
+type Mutation {
+   createStudent(collegeId:ID,firstName:String,lastName:String):String
 }
