@@ -1,6 +1,7 @@
 {
    "name": "follow_tutorialspoint",
    "private": true,
+   "author": "topcook <codecooker1996@gmail.com>",
    "scripts": {
       "start": "nodemon --ignore data/ server.js"
    },
