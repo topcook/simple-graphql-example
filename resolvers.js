@@ -16,7 +16,16 @@ const Query = {
 
     setFavouriteColor: (root, args) => {
         return "Your Fav Color is :" + args.color;
-    }
+    },
+
+    greetingWithAuth:(root,args,context,info) => {
+
+        //check if the context.user is null
+        if (!context.user) {
+           throw new Error('Unauthorized');
+        }
+        return "Hello from TutorialsPoint, welcome back : "+context.user.firstName;
+     }
 }
 
 const Student = {

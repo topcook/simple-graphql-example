@@ -4,6 +4,7 @@ type Query {
    studentById(id:ID!):Student
    sayHello(name:String!):String
    setFavouriteColor(color:ColorType):String
+   greetingWithAuth:String
 }
 
 type College {
