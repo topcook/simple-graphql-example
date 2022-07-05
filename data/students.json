@@ -22,11 +22,5 @@
     "lastName": "Panigrahi",
     "password": "pass123",
     "collegeId": "col-101"
-  },
-  {
-    "id": "BJnJKYTcq",
-    "collegeId": "col-101",
-    "firstName": "Susan",
-    "lastName": "George"
   }
 ]

@@ -16,10 +16,12 @@ type College {
 
 type Student {
    id:ID!
+   email:String
    firstName:String
    lastName:String
    # fullName:String
    college:College
+   password:String
 }
 
 enum ColorType {
